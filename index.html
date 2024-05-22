@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Padaria Real</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="styleIndex.css" />
+  <link rel="stylesheet" href="index.css" />
+  <link rel="icon" type="image/x-icon" href="img/logo.png" />
+  <script src="https://kit.fontawesome.com/69ed6b40bc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav>
+    <header>
+      <h1><a href="index.html" class="logo"><img src="img/logo.png" alt="Logo" /> Padaria Real</a></h1>
+      <hr />
+      <br />
+      <div class="botoes">
+        <a href="index.html" class="btnAtivo">Home</a>
+        <a href="salgados.html" class="btn">Salgados</a>
+        <a href="doces.html" class="btn">Doces</a>
+      </div>
+      <div class="login">
+        <a href="entrar.html" class="btn">Entrar</a>
+      </div>
+    </header>
+  </nav>
+
+  <div class="carousel-container">
+    <div class="carousel" id="myCarousel">
+      <div class="carousel-item">
+        <img src="img/index1.png" alt="Imagem 1" />
+      </div>
+      <div class="carousel-item">
+        <img src="img/index2.png" alt="Imagem 2" />
+      </div>
+      <div class="carousel-item">
+        <img src="img/index3.png" alt="Imagem 3" />
+      </div>
+    </div>
+
+    <button class="carousel-btn prev" onclick="changeSlide(-1)">
+      <i class="fa-solid fa-arrow-left"></i>
+    </button>
+    <button class="carousel-btn next" onclick="changeSlide(1)">
+      <i class="fa-solid fa-arrow-right"></i>
+    </button>
+  </div>
+
+  <div class="meio_pagina">
+    <img src="img/ifood.png" alt="iFood" class="imagem1"/> 
+    <img src="img/Contatos.png" alt="Contatos" class="imagem2"/>
+  </div>
+
+  <script src="index.js"></script>
+
+  <footer>
+    <div class="rodape">
+      <p>© 2024 Padaria Real. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>

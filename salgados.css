@@ -1,0 +1,163 @@
+h3 {
+    color:rgb(7, 7, 7)
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff7c7;
+}
+
+header {
+    background-color: rgb(241, 240, 171);
+    padding: 10px; 
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.logo {
+    border: 1px solid transparent;
+    text-decoration: none;
+    font-size: 42px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.logo img {
+    width: 95px; 
+    height: auto;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+.btn {
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}
+
+.btn:hover {
+    background-color:  black;
+    color: white;
+    transition: 1s;
+}
+
+.botoes {
+    display: flex;
+}
+
+.login {
+    display: flex;
+}
+
+.btnAtivo {
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-flex;
+    margin-right: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+}
+
+.carousel-container {
+    position: relative;
+    width: auto;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 20px; 
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    width: auto; 
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+.rodape p {
+    margin: 0;
+    font-size: 14px;
+    color: #888;
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px;
+}
+
+.produto {
+    flex: 1; 
+    max-width: 300px; 
+    text-align: center;
+}
+
+.produto img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.produto h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.produto p {
+    margin: 5px 0;
+}
+
+.produto .preco {
+    font-weight: bold;
+    color: #333;
+}
+
+
+.produto:first-child {
+    margin-left: 100px; 
+}

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Padaria Real</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="styleIndex.css" />
+  <link rel="stylesheet" href="doces.css" />
+  <link rel="icon" type="image/x-icon" href="img/logo.png" />
+  <script src="https://kit.fontawesome.com/69ed6b40bc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav>
+    <header>
+      <h1><a href="index.html" class="logo"><img src="img/logo.png" alt="Logo" /> Padaria Real</a></h1>
+      <hr />
+      <br />
+      <div class="botoes">
+        <a href="index.html" class="btn">Home</a>
+        <a href="salgados.html" class="btn">Salgados</a>
+        <a href="doces.html" class="btnAtivo">Doces</a>
+      </div>
+      <div class="login">
+        <a href="entrar.html" class="btn">Entrar</a>
+      </div>
+    </header>
+  </nav>
+
+  <div class="carousel-container">
+    <div class="carousel" id="myCarousel">
+      <div class="carousel-item">
+        <img src="img/index1.png" alt="Imagem 1" />
+      </div>
+      <div class="carousel-item">
+        <img src="img/index2.png" alt="Imagem 2" />
+      </div>
+      <div class="carousel-item">
+        <img src="img/index3.png" alt="Imagem 3" />
+      </div>
+    </div>
+
+    <button class="carousel-btn prev" onclick="changeSlide(-1)">
+      <i class="fa-solid fa-arrow-left"></i>
+    </button>
+    <button class="carousel-btn next" onclick="changeSlide(1)">
+      <i class="fa-solid fa-arrow-right"></i>
+    </button>
+  </div>
+
+  
+  <script src="index.js"></script>
+
+  <div class="produtos">
+    <div class="produto">
+      <img src="img/PaoCacauDoce.png" alt="Baguete" />
+      <h3>PÃO DOCE</h3>
+      <p>Delicie-se com o doce abraço do nosso pão! Macio, perfumado e recheado de sabor, é a escolha perfeita para adoçar seu dia. Uma explosão de felicidade em cada pedaço. Experimente e deixe-se envolver pelo doce encanto!</p>
+      <span class="preco">R$ 5,00</span>
+    </div>  
+    <div class="produto">
+      <img src="img/churros.jpg" alt="Brioche" />
+      <h3>CHURROS</h3>
+      <p>Sinta o crocante por fora e o macio por dentro do nosso churros artesanal. Uma delícia quentinha, coberta com açúcar e canela, pronta para fazer seu dia mais doce. Experimente agora e deixe-se envolver pelo sabor inconfundível do churros!</p>
+      <span class="preco">R$ 3,50</span>
+    </div>  
+    <div class="produto">
+      <img src="img/CroassantChocolate.jpg" alt="Filone" />
+      <h3>CROISSANT CHOCOLATE</h3>
+      <p>Desfrute do sabor irresistível do nosso croissant de chocolate. Com camadas delicadas de massa folhada e um generoso recheio de chocolate derretido, cada mordida é uma explosão de prazer. Experimente agora e deixe-se encantar pela indulgência!</p>
+      <span class="preco">R$ 6,50</span>
+    </div>  
+    <div class="produto">
+      <img src="img/BoloAmora.jpg" alt="Croissant" />
+      <h3>BOLO DE AMORA</h3>
+      <p>Delicie-se com a perfeita combinação de doce e azedo no nosso bolo de amora. Feito com amoras frescas e uma massa macia e fofinha, é uma experiência irresistível para o seu paladar. Experimente esta delícia frutada hoje mesmo!</p>
+      <span class="preco">R$ 4,00</span>
+    </div>  
+    <div class="produto">
+        <img src="img/cupcakes.jpg" alt="Croissant" />
+        <h3>CUPCAKES</h3>
+        <p>Saboreie a doçura em miniatura com nossos cupcakes artesanais. Cada mordida é uma explosão de sabor e felicidade, perfeita para satisfazer sua vontade de algo doce. Experimente nossas deliciosas opções e adoce seu dia!</p>
+        <span class="preco">R$ 4,00</span>
+  </div>
+
+</div>
+
+<div class="produtos">
+    <div class="produto">
+      <img src="img/cookies.webp" alt="Baguete" />
+      <h3>COOKIES</h3>
+      <p>Cookie: uma pequena tentação, um mundo de sabor em cada pedacinho.</p>
+      <span class="preco">R$ 5,00</span>
+    </div>  
+    <div class="produto">
+      <img src="img/tortaNozes.jpg" alt="Brioche" />
+      <h3>Brioche</h3>
+      <p>Derreta-se com a crocância e o sabor irresistível dos nossos cookies artesanais. Feitos com ingredientes selecionados e assados até a perfeição, cada mordida é uma experiência única de prazer. Experimente nossas variedades e deixe-se encantar pelo sabor dos nossos cookies!</p>
+      <span class="preco">R$ 3,50</span>
+    </div>  
+    <div class="produto">
+      <img src="img/sorvete de pistache.jpg" alt="Filone" />
+      <h3>SORVETE DE PISTACHE</h3>
+      <p>Sorvete de pistache: um convite ao frescor e à cremosidade em cada colherada.</p>
+      <span class="preco">R$ 15,00</span>
+    </div>  
+    <div class="produto">
+      <img src="img/sorvetePicole.jpg" alt="Croissant" />
+      <h3>PICOLES</h3>
+      <p>Uma paleta de picolés, cada um um universo de sabor. Da doçura suave do morango à refrescância cítrica do limão, cada picolé é uma jornada de prazer gelado, uma celebração dos mais deliciosos sabores da natureza.</p>
+      <span class="preco">R$ 5,00</span>
+    </div>  
+    <div class="produto">
+        <img src="img/BoloChocolate.jpg" alt="Croissant" />
+        <h3>BOLO DE CHOCOLATE</h3>
+        <p>Um bolo de chocolate, tão tentador quanto uma noite estrelada. Cada mordida é um mergulho profundo no mundo do cacau, onde a suavidade do bolo se mistura com a intensidade do chocolate, criando uma experiência celestial para o paladar. Uma fatia é o suficiente para fazer qualquer dia se tornar especial.</p>
+        <span class="preco">R$ 30,00</span>
+  </div>
+
+  
+<div class="produtos">
+  <div class="produto">
+    <img src="img/BoloAmora.jpg" alt="Baguete" />
+    <h3>BOLO DE AMORA</h3>
+    <p>Bolo de Amora: Uma fatia de carinho, onde cada mordida é um abraço caloroso da fruta suculenta combinada com a maciez do bolo. Uma doçura que aquece o coração e faz os momentos especiais durarem para sempre.</p>
+    <span class="preco">R$ 25,00</span>
+  </div>  
+  <div class="produto">
+    <img src="img/trotaMorango.jpg" alt="Brioche" />
+    <h3>TORTA DE MORANGO</h3>
+    <p>Torta de Morango: Uma explosão de frescor em cada garfada. A combinação irresistível entre a doçura dos morangos frescos e a crocância da massa. Cada pedaço é uma celebração da primavera, um deleite que encanta todos os sentidos.</p>
+    <span class="preco">R$ 5,00</span>
+  </div>  
+  <div class="produto">
+    <img src="img/Bolodelaranja.jpg" alt="Filone" />
+    <h3>BOLO DE LARANJA</h3>
+    <p>Uma fatia de sol em forma de sobremesa. A suculência da laranja se mistura delicadamente à maciez do bolo, criando uma explosão de sabor cítrico a cada mordida. Uma verdadeira festa para o paladar, que traz um toque de frescor e alegria a qualquer ocasião.</p>
+    <span class="preco">R$ 25,50</span>
+  </div>  
+  <div class="produto">
+    <img src="img/BiscoitoChocolate.jpg" alt="Croissant" />
+    <h3>BISCOITO DE CHOCOLATE</h3>
+    <p>Uma indulgência irresistível, onde cada pedaço é um mergulho no mais puro sabor do cacau. A textura macia do bolo contrasta perfeitamente com a intensidade do chocolate, criando uma experiência decadente que faz o coração sorrir a cada mordida.</p>
+    <span class="preco">R$ 5,00</span>
+  </div>  
+  <div class="produto">
+      <img src="img/Fatiaredvalvet.jpg" alt="Croissant" />
+      <h3>BOLO RED VELVET</h3>
+      <p>Uma elegância em forma de sobremesa. A suavidade do bolo, com sua cor vermelha vibrante, é como um convite para uma experiência de sabor única. Cada garfada é uma mistura harmoniosa de doçura e leveza, deixando um sabor memorável a cada pedaço.</p>
+      <span class="preco">R$ 40,00</span>
+</div>
+</div>
+
+<footer>
+  <div class="rodape">
+    <p>© 2024 Padaria Real. Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+</body>
+</html>
+

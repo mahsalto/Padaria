@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Padaria Real</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="styleIndex.css" />
+  <link rel="stylesheet" href="salgados.css" />
+  <link rel="icon" type="image/x-icon" href="img/logo.png" />
+  <script src="https://kit.fontawesome.com/69ed6b40bc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav>
+    <header>
+      <h1><a href="index.html" class="logo"><img src="img/logo.png" alt="Logo" /> Padaria Real</a></h1>
+      <hr />
+      <br />
+      <div class="botoes">
+        <a href="index.html" class="btn">Home</a>
+        <a href="salgados.html" class="btnAtivo">Salgados</a>
+        <a href="doces.html" class="btn">Doces</a>
+      </div>
+      <div class="login">
+        <a href="entrar.html" class="btn">Entrar</a>
+      </div>
+    </header>
+  </nav>
+
+  
+  <div class="carousel-container">
+    <div class="carousel" id="myCarousel">
+      <div class="carousel-item">
+        <img src="img/index1.png" alt="Imagem 1" />
+      </div>
+      <div class="carousel-item">
+        <img src="img/index2.png" alt="Imagem 2" />
+      </div>
+      <div class="carousel-item">
+        <img src="img/index3.png" alt="Imagem 3" />
+      </div>
+    </div>
+
+    <button class="carousel-btn prev" onclick="changeSlide(-1)">
+      <i class="fa-solid fa-arrow-left"></i>
+    </button>
+    <button class="carousel-btn next" onclick="changeSlide(1)">
+      <i class="fa-solid fa-arrow-right"></i>
+    </button>
+  </div>
+
+    <script src="index.js"></script>
+
+  <div class="produtos">
+    <div class="produto">
+      <img src="img/BaguettePao.png" alt="Baguete" />
+      <h3>BAGUETE</h3>
+      <p>Autenticidade francesa em cada mordida! Baguete artesanal crocante por fora, macia por dentro. </p>
+      <span class="preco">R$ 4,50</span>
+    </div>  
+    <div class="produto">
+      <img src="img/BriochePao.png" alt="Brioche" />
+      <h3>BRIOCHE</h3>
+      <p>Delicadeza e sabor se encontram em nosso brioche artesanal. Macio, doce e irresistível, cada mordida é uma experiência única. Saboreie o prazer em cada pedaço.</p>
+      <span class="preco">R$ 5,90</span>
+    </div>  
+    <div class="produto">
+      <img src="img/FilonepPao.png" alt="Filone" />
+      <h3>FILONE</h3>
+      <p>Traga o sabor da Itália para sua mesa com nosso filone artesanal. Crocante por fora, macio por dentro, é o pão perfeito para suas refeições especiais. Experimente o autêntico sabor italiano hoje mesmo!</p>
+      <span class="preco">R$ 6,50</span>
+    </div>  
+    <div class="produto">
+      <img src="img/CroassantPao.png" alt="Croissant" />
+      <h3>CROISSANT</h3>
+      <p>Experimente a crocância única do nosso croissant artesanal. Delicie-se com camadas leves de massa folhada, perfeito para qualquer momento do dia.</p>
+      <span class="preco">R$ 4,00</span>
+    </div>  
+    <div class="produto">
+        <img src="img/PaoItaliano.png" alt="Croissant" />
+        <h3>PÃO ITALIANO</h3>
+        <p>Não é preciso ir à Itália para experimentar os sabores da dolce vita. Nossa focaccia ligure de fermentação natural combina massa leve e úmida com os perfumes do azeite de oliva e do alecrim fresco.</p>
+        <span class="preco">R$ 4,00</span>
+  </div>
+
+</div>
+
+<div class="produtos">
+    <div class="produto">
+      <img src="img/hamburguer.jpg" alt="Baguete" />
+      <h3>HAMBURGUER</h3>
+      <p>Saboreie a perfeição em cada mordida com o nosso hambúrguer artesanal. Suculento, saboroso e feito com ingredientes frescos, é a escolha ideal para saciar sua fome. Peça agora e transforme seu momento em uma verdadeira experiência gastronômica!</p>
+      <span class="preco">R$ 10,00</span>
+    </div>  
+    <div class="produto">
+      <img src="img/comboFrios.jpg" alt="Brioche" />
+      <h3>COMBO FRIOS</h3>
+      <p>Desfrute de uma explosão de sabores com nosso combo de frios. Uma seleção cuidadosa de queijos, embutidos e acompanhamentos frescos, perfeitos para compartilhar ou saborear sozinho. Experimente a variedade em cada mordida.</p>
+      <span class="preco">R$ 15,50</span>
+    </div>  
+    <div class="produto">
+      <img src="img/sandwiche.jpg" alt="Filone" />
+      <h3>SANDUÍCHE</h3>
+      <p>Transforme sua refeição em um festival de sabores com nosso sanduíche artesanal. Recheado com ingredientes frescos e saborosos, é a escolha perfeita para uma refeição rápida e deliciosa.</p>
+      <span class="preco">R$ 7,50</span>
+    </div>  
+    <div class="produto">
+      <img src="img/baguete recheada.jpg" alt="Croissant" />
+      <h3>BAGUETE RECHADA</h3>
+      <p>Surpreenda seu paladar com nossa baguete recheada. Um equilíbrio perfeito entre crocância e cremosidade, recheada com ingredientes frescos e saborosos. Uma explosão de sabores em cada mordida. </p>
+      <span class="preco">R$ 9,70</span>
+    </div>  
+    <div class="produto">
+        <img src="img/fatiaPizza.jpg" alt="Croissant" />
+        <h3>FATIA DE PIZZA</h3>
+        <p>Delicie-se com a autenticidade italiana em cada fatia da nossa pizza artesanal. Massa crocante, molho de tomate caseiro e uma seleção de ingredientes frescos e saborosos. Uma experiência única de sabor em cada mordida.</p>
+        <span class="preco">R$ 7,00</span>
+  </div>
+
+  
+<div class="produtos">
+  <div class="produto">
+    <img src="img/sandwichFrango.jpg" alt="Baguete" />
+    <h3>SANDUÍCHE DE FRANGO</h3>
+    <p>Desfrute de um sabor irresistível com nosso sanduíche de frango. Feito com ingredientes frescos e suculentos pedaços de frango grelhado, é a opção perfeita para uma refeição rápida e satisfatória. </p>
+    <span class="preco">R$ 13,00</span>
+  </div>  
+  <div class="produto">
+    <img src="img/kibe.jpg" alt="Brioche" />
+    <h3>Brioche</h3>
+    <p>Descubra o sabor autêntico do Oriente Médio com nosso kibe artesanal. Feito com carne moída temperada e trigo bulgur, frito até a perfeição para uma crocância irresistível por fora e uma maciez deliciosa por dentro. </p>
+    <span class="preco">R$ 3,50</span>
+  </div>  
+  <div class="produto">
+    <img src="img/coxinha.jpg" alt="Filone" />
+    <h3>COXINHA</h3>
+    <p>Delicie-se com a crocância por fora e a maciez por dentro da nossa coxinha artesanal. Recheada com frango suculento e temperado, é a escolha perfeita para um lanche saboroso a qualquer hora do dia.</p>
+    <span class="preco">R$ 6,50</span>
+  </div>  
+  <div class="produto">
+    <img src="img/macarrao.jpg" alt="Croissant" />
+    <h3>MACARRÃO</h3>
+    <p>Satisfaça seu paladar com nosso prato de macarrão artesanal. Massa al dente coberta com molho caseiro e ingredientes frescos, é uma explosão de sabores em cada garfada. </p>
+    <span class="preco">R$ 25,00</span>
+  </div>  
+  <div class="produto">
+      <img src="img/pratoFeito.jpg" alt="Croissant" />
+      <h3>PRATO FEITO</h3>
+      <p>Desfrute de uma refeição completa e saborosa com nosso prato feito. Uma combinação perfeita de arroz, feijão, carne suculenta, salada fresca e acompanhamentos deliciosos. Sabor caseiro que aquece o coração.</p>
+      <span class="preco">R$ 20,00</span>
+</div>
+</div>
+
+<footer>
+  <div class="rodape">
+    <p>© 2024 Padaria Real. Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+</body>
+</html>
+

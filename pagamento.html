@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Pagamento</title>
+  <link rel="stylesheet" href="pagamento.css">
+  <link rel="icon" type="image/x-icon" href="img/logo.png">
+</head>
+<body>
+  <div class="container">
+    <h1>Checkout</h1>
+    <form id="payment-form">
+      <div class="form-group">
+        <label for="payment-method">Método de Pagamento</label>
+        <select id="payment-method" name="payment-method" required>
+          <option value="boleto">Boleto</option>
+          <option value="cartao">Cartão de Crédito</option>
+          <option value="pix">Pix</option>
+        </select>
+      </div>
+      <div id="boleto-info" class="payment-info">
+        <p>Você receberá um boleto por e-mail.</p>
+      </div>
+      <div id="cartao-info" class="payment-info">
+        <div class="form-group">
+          <label for="card-number">Número do Cartão</label>
+          <input type="text" id="card-number" name="card-number" required>
+        </div>
+        <div class="form-group">
+          <label for="expiration">Data de Validade</label>
+          <input type="text" id="expiration" name="expiration" placeholder="MM/AA" required>
+        </div>
+        <div class="form-group">
+          <label for="cvv">CVV</label>
+          <input type="text" id="cvv" name="cvv" required>
+        </div>
+      </div>
+      <div id="pix-info" class="payment-info">
+        <p>Use o QR code abaixo para realizar o pagamento via Pix.</p>
+        <img src="pix-qrcode.png" alt="QR Code Pix">
+      </div>
+      <button type="submit">Pagar</button>
+    </form>
+  </div>
+
+  <script src="pagamento.js"></script>
+</body>
+</html>
